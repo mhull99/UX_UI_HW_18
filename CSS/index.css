@@ -40,17 +40,25 @@ html{
 }
 h1{
     color: #B9BDB8;
-    text-align: right;
+    text-align: center;
 }
 h2{
     color:#B9BDB8;
-    text-align: right;
+    text-align: center;
 }
 
 .flexContainer{
     display: flex;
     width: 33%;
-    margin:2%;
-    padding: 2%;
+    margin:auto;
+    padding: 15px;
     flex-direction: column;
+    justify-content: right;
+    border: 3px #B9BDB8;
+    align-content: right;
+}
+
+.myWork{
+    display: grid;
+
 }
