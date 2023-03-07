@@ -58,7 +58,17 @@ h2{
     align-content: right;
 }
 
-.myWork{
+.workGrid{
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 30px;
+}
 
+.buhi{
+    grid-area: buhi;
+}
+
+.chaser{
+    grid-area: chaser;
 }
