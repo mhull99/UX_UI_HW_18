@@ -83,5 +83,11 @@ h2{
     .chaser{
         width: 100%;
     }
-    
+    #workGrid{
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "buhi"
+            "chaser";
+    }
 }
